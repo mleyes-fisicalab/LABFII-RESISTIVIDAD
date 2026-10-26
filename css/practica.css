@@ -1,0 +1,17 @@
+/* Resistividad eléctrica */
+:root{--copper:#d98a4e;--konst:#b9c2cc;--brass:#d6b24a}
+.stage text{font-family:var(--f-mono);fill:var(--fg2);font-size:12px}
+.stage text.lb{font-family:var(--f-body);font-weight:600;fill:var(--fg)}
+.stage .board{fill:var(--glass2);stroke:var(--line2)}
+.stage .term{fill:var(--bg);stroke:var(--fg2);stroke-width:2}
+.stage .cable{fill:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+.stage .box{fill:var(--bg);stroke:var(--fg2);stroke-width:1.5}
+.stage .flowdots{fill:none;stroke:var(--acc);stroke-width:2.5;stroke-dasharray:1.5 11;stroke-linecap:round}
+.vchips{display:flex;flex-wrap:wrap;gap:6px}
+.vchips button{all:unset;cursor:pointer;padding:6px 10px;border-radius:8px;border:1px solid var(--line2);font:600 13px/1 var(--f-mono);color:var(--fg2);position:relative}
+.vchips button[aria-pressed="true"]{background:var(--gold);color:var(--onacc);border-color:var(--gold)}
+.vchips button:focus-visible{outline:2px solid var(--gold)}
+.vchips button .c{position:absolute;top:-6px;right:-6px;min-width:16px;height:16px;border-radius:8px;background:var(--acc);color:var(--bg);font-size:10px;display:grid;place-items:center;padding:0 3px}
+.amm svg{display:block;width:100%;height:auto}
+.wtabs{display:flex;flex-wrap:wrap;gap:6px}
+.amm svg{max-width:340px;margin:0 auto}
